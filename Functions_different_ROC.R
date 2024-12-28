@@ -126,13 +126,13 @@ VARIAS.ROC<- function(XD , XH, pe=seq(0,1,length=101), varianza.exp, grilla.tes,
 #########################################################
 # The grid is p=seq(0,1,length=101)                     #
 # hence roc.dif.medias[1]==0                            #
-#########################################################
+######################################################### 
 
 	roc.dif.medias[1]= 0
 
 
 #########################################################
-# Using  % of the varianve varrianza.exp                #
+# Using  % of the explained variance: varianza.exp       #
 #########################################################
 
  	RC.PC<- ROC.CL.funcional.alfa(grilla.tes, XD, XH,pe=pe,alfa=NULL, varexp=varianza.exp, base=base, pooled=pooled)
