@@ -28,7 +28,7 @@ dim(cardio)
 names(cardio)
 
 ###################################################################
-## Data from A cardiotoxicity dataset for breas cancer patients   #
+## Data from A cardiotoxicity dataset for breast cancer patients   #
 ## Beatriz Piñeiro-Lamas et al. (2024)                            #
 ## www.nature.com/scientificdata                                  #
 ###################################################################
@@ -63,7 +63,7 @@ dev.off()
 
 
 ############################################
-# Definition of XD y XH                    #
+# Definition of XD and XH                    #
 ############################################
 
 XD <- as.matrix(cardio[CTRCD==1,2:1002]) # "CTRCD=1"
